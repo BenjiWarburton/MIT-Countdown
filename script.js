@@ -1,7 +1,9 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const countdownElement = document.getElementById('timer');
-    const revealDate = new Date('March 14, 2024 18:28:00 GMT-0400').getTime();
+   
+    const revealDate = new Date('2024-03-14T18:28:00-04:00').getTime();
+
 
     const interval = setInterval(() => {
         const now = new Date().getTime();
